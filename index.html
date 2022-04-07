@@ -49,7 +49,7 @@
     	valid = validateContact();
     	if(valid) {
     		jQuery.ajax({
-    		url: "contact_mail.php",
+    		url: "https://mabdullahs.com/waleedhassanien/contact_mail.php",
     		data:'userName='+$("#name").val()+'&userEmail='+$("#email").val()+'&phone='+$("#phone").val()+'&subject='+$("#subject").val()+'&message='+$("#message").val(),
     		type: "GET",
     		success:function(data){
