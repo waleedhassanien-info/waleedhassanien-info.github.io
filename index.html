@@ -51,7 +51,7 @@
     		jQuery.ajax({
     		url: "contact_mail.php",
     		data:'userName='+$("#name").val()+'&userEmail='+$("#email").val()+'&phone='+$("#phone").val()+'&subject='+$("#subject").val()+'&message='+$("#message").val(),
-    		type: "POST",
+    		type: "GET",
     		success:function(data){
     		$("#formShow").html(data);
     		},
